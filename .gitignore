@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Environment (secrets - never upload)
+.env
+backend/.env
+frontend/.env
+
+# Build files
+dist/
+build/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Coverage
+coverage/
+
+# Database dumps (optional - if you don't want schema/seed on GitHub)
+database/
